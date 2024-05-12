@@ -1,7 +1,8 @@
-function calculateSize(count) {
-  const width = Math.sqrt(count) * 10;
-  const height = width;
-  return [width, height];
+function calculateSize(count, word) {
+  const baseSize = 8;
+  const width = Math.sqrt(word.length) * baseSize;
+  const height = count * baseSize;
+  return [Math.round(width), height];
 }
 
 function arrayToHashMap(arr) {
@@ -26,7 +27,7 @@ function processParagraph(paragraph) {
   const result = [];
 
   Object.entries(hashedData).forEach((data) => {
-    const size = calculateSize(data[1]);
+    const size = calculateSize(data[1], data[0]);
     result.push([data[0], data[1], size]);
   });
 
