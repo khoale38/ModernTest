@@ -28,14 +28,14 @@ const initialData = [
       { label: "State 2.2", check: 1 },
     ],
   },
-  // {
-  //   label: "Country 3",
-  //   check: 1,
-  //   items: [
-  //     { label: "State 3.1", check: 1 },
-  //     { label: "State 3.2", check: 1 },
-  //   ],
-  // },
+  {
+    label: "Country 3",
+    check: 1,
+    items: [
+      { label: "State 3.1", check: 1 },
+      { label: "State 3.2", check: 1 },
+    ],
+  },
 ];
 
 function TreeItem({ item, onCheckChange }) {
