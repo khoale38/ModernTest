@@ -1,5 +1,6 @@
 # This project combine 2 part: 
-## ReactJS project: Checkboxes UI exercise.
+## UI-exercise folder:
+  - Checkboxes exercise
   <img width="720" alt="image" src="https://github.com/khoale38/ModernTest/assets/61538368/d56bbbfc-c9bf-4727-874c-f134734a439c">
 
 ## Algorithm folder:
@@ -16,7 +17,8 @@
 <img width="533" alt="Screenshot 2024-05-12 at 17 11 14" src="https://github.com/khoale38/ModernTest/assets/61538368/bd158dfb-ab9f-4be6-9490-31508bd5e813">
 
 ## Start UI exercise
-  - Please use `npm start` to start the project
+  - Use `cd UI-exercise` to access to folder
+  - Use `npm start` to start the project
   - Access `localhost:3000` to view the solution
   - Use `initalData` to change input data
 <img width="588" alt="Screenshot 2024-05-12 at 17 40 19" src="https://github.com/khoale38/ModernTest/assets/61538368/66ccc7bb-b787-4271-b7ff-00229351ee79">
