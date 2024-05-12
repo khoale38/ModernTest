@@ -1,19 +1,20 @@
 # This project combine 2 part: 
 ## UI-exercise folder:
   - Checkboxes exercise
+  - Main strategy: Update state when item is clicked - Update item's children and item's parents.
   <img width="720" alt="image" src="https://github.com/khoale38/ModernTest/assets/61538368/d56bbbfc-c9bf-4727-874c-f134734a439c">
 
 ## Algorithm folder:
   - WordCount exercise.
-
+  - Main strategy: HashMap with unique key and frequency as value.
 <img width="595" alt="image" src="https://github.com/khoale38/ModernTest/assets/61538368/f9ba0706-a0e1-4119-a93b-113d9a0a7dcb">
 
   - Format exercise.
-
+   - Main strategy: Split string into parts. Then handle "{" and "}" indent.
 <img width="579" alt="image" src="https://github.com/khoale38/ModernTest/assets/61538368/b571aa54-ff1c-45df-a47b-5662ef810d4b">
   
   - Tags exercise.
-
+  - Main strategy: HashMap with unique key and frequency as value. Then compare the different
 <img width="533" alt="Screenshot 2024-05-12 at 17 11 14" src="https://github.com/khoale38/ModernTest/assets/61538368/bd158dfb-ab9f-4be6-9490-31508bd5e813">
 
 ## Start UI exercise
