@@ -24,6 +24,5 @@ function formatIfElse(codeLine) {
 
 const data =
   "const format = (m) => { const n =10 ; if (m+n>10) { if (m+n>20) { console.log('over 20'); if (m+n>30) { console.log('over 30') if (m+n>40) { console.log('over 40') } } } } }";
-const a = "if (a==1) { return a } else { return b }";
 
 console.log(formatIfElse(data));
