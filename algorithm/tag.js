@@ -1,7 +1,3 @@
-const tagA = ["A", "C", "D", "D", "C", "A", "B", "F"];
-
-const tagB = ["E", "C", "D", "D", "H", "A", "B", "F"];
-
 function arrayToHashMap(arr) {
   const map = {};
   arr.forEach((item) => {
@@ -14,14 +10,13 @@ function arrayToHashMap(arr) {
   return map;
 }
 
-const hashMapA = arrayToHashMap(tagA);
-const hashMapB = arrayToHashMap(tagB);
-
-function findDifferingKeys(map1, map2) {
+function findDifferingKeys(tagA, tagB) {
+  const hashMapA = arrayToHashMap(tagA);
+  const hashMapB = arrayToHashMap(tagB);
   const differingKeys = [];
-  const allKeys = new Set([...Object.keys(map1), ...Object.keys(map2)]);
+  const allKeys = new Set([...Object.keys(hashMapA), ...Object.keys(hashMapB)]);
   allKeys.forEach((key) => {
-    if (map1[key] !== map2[key]) {
+    if (hashMapA[key] !== hashMapB[key]) {
       differingKeys.push(key);
     }
   });
@@ -29,4 +24,6 @@ function findDifferingKeys(map1, map2) {
   return differingKeys;
 }
 
-console.log(findDifferingKeys(hashMapA, hashMapB));
+const tagA = ["A", "C", "D", "D", "C", "A", "B", "F"];
+const tagB = ["E", "C", "D", "D", "H", "A", "B", "F"];
+console.log(findDifferingKeys(tagA, tagB));
